@@ -1,0 +1,61 @@
+
+
+<div class="content" role="main">
+
+  <h1>Trip Planner</h1>
+  <form>
+    <select class="dropDownBox" 
+            name="select" 
+            (change)="getWeather(selectedCity)"
+            [(ngModel)]="selectedCity">
+      <option *ngFor="let city of Cities" [ngValue]="city">
+        {{ city.label }}
+      </option>
+    </select>
+  
+    <div style="padding-top: 10px">
+      <textarea
+        class="title"
+        name="displaySelectedName"
+        [(ngModel)]="selectedCity.name"
+      ></textarea>
+    </div>
+  </form>
+    
+  <div >
+    <textarea 
+        class="textArea"
+        name="displaySelectedLabel"
+        [(ngModel)]="selectedCity.description"
+      ></textarea>
+  </div>
+  
+  <h3>Current Weather</h3>
+  <div class="outputBox" >
+    <div id="1Row" class="float-container">
+      <p id="datetime">{{ weather.location.localtime }}</p>
+    </div>
+
+    <div id="2Row" class="float-container">
+      
+      <div class="float-child">
+        <p id="tempC">{{ weather.current.temp_c }}
+          <span>&#176;</span>
+          C
+        </p>
+        <p id="tempF">{{ weather.current.temp_f }}
+          <span>&#176;</span>
+          F
+        </p>
+      </div>
+
+      <div class="float-child">
+        <p id="condition">{{ weather.current.condition.text }}</p> 
+        <span class="icon"></span>
+      </div>
+    </div>
+    
+  </div>
+
+</div>
+<router-outlet></router-outlet>

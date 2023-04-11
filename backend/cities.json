@@ -1,0 +1,30 @@
+
+{
+    "Cities":  [
+        {
+            "name" : "Venice, Italy",  
+            "label" : "Venice",
+            "description" : "Venice, the capital of northern Italy’s Veneto region, is built on more than 100 small islands in a lagoon in the Adriatic Sea. It has no roads, just canals – including the Grand Canal thoroughfare – lined with Renaissance and Gothic palaces. The central square, Piazza San Marco, contains St. Mark’s Basilica, which is tiled with Byzantine mosaics, and the Campanile bell tower offering views of the city’s red roofs."
+        },
+        {
+            "name" : "Innsbruck, Austria",  
+            "label" : "Innsbruck",
+            "description" : "Innsbruck, capital of Austria’s western state of Tyrol, is a city in the Alps that's long been a destination for winter sports. Innsbruck is also known for its Imperial and modern architecture. The Nordkette funicular, with futuristic stations designed by architect Zaha Hadid, climbs up to 2,256m from the city center for skiing in winter and hiking or mountaineering in warmer months."
+        },
+        {
+            "name" : "Salzburg, Austria",  
+            "label" : "Salzburg",
+            "description" : "Salzburg is an Austrian city on the border of Germany, with views of the Eastern Alps. The city is divided by the Salzach River, with medieval and baroque buildings of the pedestrian Altstadt (Old City) on its left bank, facing the 19th-century Neustadt (New City) on its right. The Altstadt birthplace of famed composer Mozart is preserved as a museum displaying his childhood instruments."
+        },
+        {
+            "name" : "Munich, Germany",  
+            "label" : "Munich",
+            "description" : "Munich, Bavaria’s capital, is home to centuries-old buildings and numerous museums. The city is known for its annual Oktoberfest celebration and its beer halls, including the famed Hofbräuhaus, founded in 1589. In the Altstadt (Old Town), central Marienplatz square contains landmarks such as Neo-Gothic Neues Rathaus (town hall), with a popular glockenspiel show that chimes and reenacts stories from the 16th century."
+        },
+        {
+            "name" : "Lucerne, Switzerland",  
+            "label" : "Lucerne",
+            "description" : "Lucerne, a compact city in Switzerland known for its preserved medieval architecture, sits amid snowcapped mountains on Lake Lucerne. Its colorful Altstadt (Old Town) is bordered on the north by 870m Museggmauer (Musegg Wall), a 14-century rampart. The covered Kapellbrücke (Chapel Bridge), built in 1333, links the Aldstadt to the Reuss River's right bank."
+        }
+    ]
+}

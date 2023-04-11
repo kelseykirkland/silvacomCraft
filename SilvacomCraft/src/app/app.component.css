@@ -1,0 +1,56 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 8px 0;
+}
+
+.textArea {
+  border-radius: 4px;
+  border: 1px solid #eee;
+  background-color: #fafafa;
+  height: 200px;
+  width: 500px;
+  margin: 0 8px 16px;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  transition: all 0.2s ease-in-out;
+  line-height: 24px;
+}
+
+.dropDownBox {
+  margin: 0 8px 8px;
+  padding: 8px;
+}
+
+.title {
+  border-style: none;
+  background-color: transparent;
+  font-size: 24px; 
+}
+
+.outputBox {
+  border-radius: 4px;
+  border: 1px solid #eee;
+  background-color: #fafafa;
+  width: 500px;
+  height: 200px;
+  margin: 0 8px 16px;
+  padding: 5px;
+  font-size: 24px;
+
+}
+
+.float-container {
+  width: 500px;
+  display: flex;
+  margin-left: 10px;
+}
+
+.float-child {
+  width: 25%;
+  float: left;
+} 
