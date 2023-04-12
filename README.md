@@ -7,7 +7,7 @@ http://18.222.255.189/
 
 NOTE: on the hosted app, it is only the frontend the backend does not work
 it has the error "Failed to load resource: net::ERR_CONNECTION_REFUSED"
-I believe it is an error in the nginx config file and is not routing properly to the 'http://127.0.0.1:5000/api'where the backend is.
+I believe it is an error in the nginx config file and is not routing properly to the 'http://127.0.0.1:5000/api' where the backend is.
 So for now it is only the frontend. To see the backend working clone it from git and run it on local
 
 To run in local:
