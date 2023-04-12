@@ -2,6 +2,7 @@
 Hosted on: AWS EC2
 
 http://ec2-18-222-255-189.us-east-2.compute.amazonaws.com/
+
 http://18.222.255.189/
 
 NOTE: on the hosted app, it is only the frontend the backend does not work
