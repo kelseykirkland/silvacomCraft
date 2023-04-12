@@ -31,7 +31,7 @@ export class AppComponent {
 
   info: any;
   Cities: any = []
-  rootURL = 'http://127.0.0.1:5000/';
+  rootURL = 'http://127.0.0.1:5000/api';
   apiKey = '76b8ebdad54f4237b4144217231004'
 
   constructor(private http: HttpClient) { }

@@ -9,12 +9,12 @@ app._static_folder = "static"
 CORS(app)
 WEATHER_API_KEY = config.WEATHER_API_KEY
 
-@app.route('/', methods=['GET'])
+@app.route('/api/', methods=['GET'])
 def root():
     return "Hello World"
 
 # returns json of Cities from cities.json file
-@app.route('/cities', methods=['GET'])
+@app.route('/api/cities', methods=['GET'])
 def getCities():
     f = open ('cities.json', "r")
     cities = json.loads(f.read())
@@ -24,7 +24,7 @@ def getCities():
 # returns json of weather data
 # received from external API from weatherapi.com
 # params: cityName (ei. "Venice") to be added to API url
-@app.route('/weather/<cityName>', methods=['GET'])
+@app.route('/api/weather/<cityName>', methods=['GET'])
 def getWeather(cityName):
     url = 'http://api.weatherapi.com/v1/current.json?key='+WEATHER_API_KEY+'&q='+cityName+'&aqi=no'
     response = urllib.request.urlopen(url)
